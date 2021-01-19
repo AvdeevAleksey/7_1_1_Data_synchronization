@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">7_1_1_Data_synchronization</string>
+    <string name="syncbtn">Синхронизация</string>
+</resources>
