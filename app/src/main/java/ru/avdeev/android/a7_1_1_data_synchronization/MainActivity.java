@@ -32,14 +32,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_SYNC);
                 if (now.isAfter(six) && now.isBefore(fifteen)) {
                     intent.setData(Uri.parse("http://morning"));
-
                 } else {
                     if (now.isAfter(fourteen) && now.isBefore(fifteen)) {
                         intent.setData(Uri.parse("http://afternoon"));
-
                     } else {
                         intent.setData(Uri.parse("http://evening"));
-
                     }
                 }
                 startActivity(intent);
