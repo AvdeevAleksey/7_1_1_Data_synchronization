@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">7_1_1_Data_synchronization</string>
-    <string name="syncbtn">Синхронизация</string>
+    <string name="syncBtn">Синхронизация</string>
+    <string name="morning">Утренняя синхронизация</string>
+    <string name="afternoon">Дневная синхронизация</string>
+    <string name="evening">Вечерняя синхронизация</string>
 </resources>
