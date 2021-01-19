@@ -9,6 +9,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import java.time.LocalTime;
 import java.util.Locale;
@@ -31,11 +32,14 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_SYNC);
                 if (now.isAfter(six) && now.isBefore(fifteen)) {
                     intent.setData(Uri.parse("http://morning"));
+
                 } else {
                     if (now.isAfter(fourteen) && now.isBefore(fifteen)) {
                         intent.setData(Uri.parse("http://afternoon"));
+
                     } else {
                         intent.setData(Uri.parse("http://evening"));
+
                     }
                 }
                 startActivity(intent);

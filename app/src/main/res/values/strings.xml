@@ -4,4 +4,5 @@
     <string name="morning">Утренняя синхронизация</string>
     <string name="afternoon">Дневная синхронизация</string>
     <string name="evening">Вечерняя синхронизация</string>
+    <string name="start_sync">Запуск</string>
 </resources>

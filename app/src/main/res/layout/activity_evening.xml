@@ -7,7 +7,7 @@
     tools:context=".EveningActivity">
 
     <TextView
-        android:id="@+id/morningSync"
+        android:id="@+id/eveningSync"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/evening"
@@ -16,5 +16,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:id="@+id/eveningSyncTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eveningSync"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <Button
+        android:id="@+id/eveningBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/eveningSyncTime"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/start_sync"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
