@@ -16,7 +16,7 @@ public class AfternoonActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_afternoon);
-        TextView textViewTime = findViewById(R.id.eveningSyncTime);
+        TextView textViewTime = findViewById(R.id.afternoonSyncTime);
         textViewTime.setText(LocalTime.now().toString());
     }
 }
